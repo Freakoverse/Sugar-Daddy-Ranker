@@ -582,3 +582,12 @@ audio {
   transform: translateX(26px);
 }
 
+.cardthingGroupInput {
+  -moz-appearance: textfield;
+}
+
+.cardthingGroupInput::-webkit-inner-spin-button, .cardthingGroupInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
