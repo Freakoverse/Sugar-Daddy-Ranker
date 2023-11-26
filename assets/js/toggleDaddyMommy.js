@@ -30,7 +30,7 @@ function toggleBackground() {
 
   // Update the background image for each element
   elementsToToggle.forEach(element => {
-    element.style.backgroundImage = isOriginalImage ? 'url("https://s.abcnews.com/images/GMA/210913_fran_ca_1631563227848_hpMain_1x1_992.jpg")' : 'url("https://miro.medium.com/v2/resize:fit:615/0*iAtFOZfZYrLepZyG.jpg")';
+    element.style.backgroundImage = isOriginalImage ? 'url("https://s.abcnews.com/images/GMA/210913_fran_ca_1631563227848_hpMain_1x1_992.jpg")' : 'url("https://raw.githubusercontent.com/Freakoverse/Sugar-Daddy-Ranker/main/assets/img/hitheredaddy.webp")';
   });
 
   // Update the state for the next toggle
