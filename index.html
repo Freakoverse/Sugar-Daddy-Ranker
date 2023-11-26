@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="htmlMain" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sugar Daddy Ranker</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bonheur+Royale&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="bodyMain">
+    <div class="divMain">
+        <div class="divMainMid">
+            <div class="divMainSec">
+                <div class="divMainSecSides">
+                    <div class="divMainSecSidesPic" style="background: url(&quot;assets/img/hitheredaddy.webp&quot;) center / cover no-repeat;"></div>
+                </div>
+                <div class="divMainSecMiddle">
+                    <div class="divCustomContainer">
+                        <div class="divMSMWrapper">
+                            <div class="divMainTopInner">
+                                <p class="divMainTopInnerPara">For the best calculating experience, play the music below</p><audio class="divMainTopInnerAudio" controls="" loop="" autoplay="">
+                                    <source type="audio/mpeg">
+                                </audio>
+                            </div>
+                            <div class="divMSMTop">
+                                <div class="divMSMTopInfo">
+                                    <div class="divMSMTopInfoInner">
+                                        <h1 class="divMSMTopInfoInnerHeading">Sugar&nbsp;<span class="toggleNameChangeMommyDaddy">Daddy</span> Ranker</h1>
+                                        <p class="divMSMTopInfoInnerPara">Do you have a Sugar Daddy or Mommy? How you ever wonder how much of a Sugar Mommy/Daddy they are? Is your Sugar Mommy/Daddy better or worse than others' Sugar Mommy/Daddy? This is the tool to help you figure that out.<br><br>Below are various items with their correlating dollar value, where you add how many of these items you've received, along with a custom item where you'd just add a dollar value, and once you're done you'd then click/tap the "Calculate Daddy/Mommy Rank" button at the bottom to know your Daddy's/Mommy's rank.</p>
+                                    </div>
+                                </div>
+                                <div class="divMSMTopVid">
+                                    <div class="divMSMTopVidInner">
+                                        <div class="vidWrapperMain"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/tTpUbBnC_-Y" class="vidMain" width="100%" height="100%"></iframe></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="toggleMomDadyDiv">
+                                <div style="width: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;max-width: 200px;position: relative;"><label class="form-label toggleMomDadyDivLabel"><input type="checkbox" id="toggleMomDadyDivLabelToggleSwitch"><span class="toggleMomDadyDivLabelSlider"></span></label>
+                                    <p id="toggleMomDadyDisplayText" class="toggleMomDadyDivPara">Sugar Daddy</p>
+                                </div>
+                            </div>
+                            <div class="divMSMBottom">
+                                <div class="cardthingAlt">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/tumblr_978605a2402181073a3a7794cfa20040_f980c4bc_540.gif&quot;) center / cover no-repeat;"></div><label class="form-label cardthingTitle">Custom Gift<br>(Put whatever $ amount)</label>
+                                    <div class="cardthingGroup"><input type="number" id="customValue" class="cardthingGroupInput" min="0" placeholder="$0"></div>
+                                </div>
+                                <div class="cardthing" data-value="10">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/McDonalds-Japan-Anime-Ad-2023-Gif.gif&quot;) top / cover no-repeat;"></div><label class="form-label cardthingTitle">McDonald's Meal<br>($10)</label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="60">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/tumblr_o2ceynVQs71v2t3oqo1_540.gif&quot;) top / cover no-repeat;"></div><label class="form-label cardthingTitle">Video Game<br>($60)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="1200">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/c8774b7f0ab64b0bdb75c90818d8138f.gif&quot;) center / cover no-repeat;"></div><label class="form-label cardthingTitle">IPhone<br>($1,200)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="1500">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/game-gaming.gif&quot;) top / cover no-repeat;"></div><label class="form-label cardthingTitle">Gaming PC<br>($1,500)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="10000">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/c95bd8e4bf99100a995ec49374568d11.gif&quot;) bottom / cover no-repeat;"></div><label class="form-label cardthingTitle">Used Car<br>($10,000)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="50000">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/baef481af5c49fe296e05fd21b06aeef.gif&quot;) bottom / cover no-repeat;"></div><label class="form-label cardthingTitle">New Car<br>($50,000)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="300000">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/tumblr_540f3bda27488a491858ed390b028eb5_e0a1a40a_540.gif&quot;) bottom / cover no-repeat;"></div><label class="form-label cardthingTitle">House<br>($300,000)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="1500000">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/Anime-mansion-header.webp&quot;) bottom / cover no-repeat;"></div><label class="form-label cardthingTitle">Mansion<br>($1,500,000)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="cardthing" data-value="50000000">
+                                    <div class="cardthingPic" style="background: url(&quot;assets/img/bugatti-chiron-bugatti.gif&quot;) center / cover no-repeat;"></div><label class="form-label cardthingTitle">Bugatti<br>($50,000,000)<br></label>
+                                    <div class="cardthingGroup"><button class="btn cardthingGroupbtn" type="button" onclick="decrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path>
+                                            </svg></button><input type="number" class="cardthingGroupInput" value="0" min="0"><button class="btn cardthingGroupbtn" type="button" onclick="incrementValue(this)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                            </svg></button></div>
+                                </div>
+                            </div>
+                            <div class="divMSMBottomer">
+                                <div class="divCustomContainer" style="padding: 0 15px;">
+                                    <div class="divMSMBottomerInner"><button class="btn divMSMBottomerInnerBtn" type="button" onclick="calculateRank()">Calculate&nbsp;<span class="toggleNameChangeMommyDaddy">Daddy</span> Rank</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divMainSecSides">
+                    <div class="divMainSecSidesPic" style="background: url(&quot;assets/img/hitheredaddy.webp&quot;) center / cover no-repeat;-webkit-transform: scaleX(-1);transform: scaleX(-1);"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="rankModal" class="modalMain">
+        <div class="divCustomContainer">
+            <div class="modalMainCard">
+                <div class="modalMainTop"><button class="btn modalMainTopBtn" type="button" onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-96 0 512 512" width="1em" height="1em" fill="currentColor">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path>
+                        </svg></button></div>
+                <div class="modalMainMid">
+                    <p class="modalMainMidPara">Your sugar daddy rank is:&nbsp;<span id="rankResult" class="modalMainMidParaSpan">.</span>&nbsp;</p>
+                </div>
+                <div class="modalMainBottom"><button class="btn btn-primary shareontwitterbtn" type="button" onclick="shareOnTwitter()">Share on Twitter/X</button>
+                    <p id="twitterShareRank" style="display: none;">Paragraph</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/calc.js"></script>
+    <script src="assets/js/toggleDaddyMommy.js"></script>
+</body>
+
+</html>

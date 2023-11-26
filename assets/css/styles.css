@@ -1,0 +1,584 @@
+.htmlMain {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.bodyMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background: #333333;
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Bonheur Royale';
+  word-break: break-word;
+  color: #ffffff;
+  position: relative;
+  letter-spacing: 1px;
+  padding: 50px 0 100px 0;
+}
+
+.divMain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*grid-gap: 25px;*/
+  flex-grow: 1;
+  grid-gap: 50px;
+}
+
+.divMainMid {
+  flex-grow: 1;
+}
+
+.divMainSec {
+  display: flex;
+  flex-direction: row;
+}
+
+.divMainSecSides {
+  height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 20px 100px 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+  .divMainSecSides {
+    padding: 0;
+  }
+}
+
+.divMainSecMiddle {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divMainSecSidesPic {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 1500px;
+  background: rgba(0,0,0,0.1);
+  overflow: hidden;
+  border-radius: 8px;
+  /*border: solid 1px rgba(255,255,255,0.1);*/
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+}
+
+.divMainTop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.divCustomContainer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  position: relative;
+}
+
+.divMSMTop {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  grid-gap: 25px;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .divMSMTop {
+    grid-template-columns: 1fr;
+  }
+}
+
+.divMSMTopInfo {
+}
+
+.divMSMTopVid {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.divMSMTopInfoInner {
+  padding: 25px;
+  border-radius: 10px;
+  background: #444444;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.divMSMTopVidInner {
+  padding: 25px;
+  border-radius: 10px;
+  background: #444444;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.divMainTopInner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  background: #444444;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.vidWrapperMain {
+  width: 100%;
+  padding-top: calc(100% / (16 / 9));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.vidMain {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.divMSMBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .divMSMBottom {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .divMSMBottom {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .divMSMBottom {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cardthing {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #444444;
+}
+
+.cardthingTitle {
+  font-family: 'Alegreya';
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  padding: 10px 5px;
+}
+
+.cardthingGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px rgba(255,255,255,0.05);
+  /*grid-gap: 10px;*/
+  flex-grow: 1;
+}
+
+.cardthingGroupLabel {
+}
+
+.cardthingGroupInput {
+  transition: ease 0.4s;
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
+  -webkit-appearance: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Alegreya';
+  height: 100%;
+  border: unset;
+  outline: unset;
+  background: rgba(0,0,0,0.1);
+  color: white;
+}
+
+.cardthingPic {
+  height: 150px;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+.modalMain {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+#rankModal {
+  display: none;
+}
+
+.modalMainCard {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  background: #444444;
+  padding: 15px;
+  box-shadow: 0 0 12px 0 rgb(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Alegreya';
+  grid-gap: 25px;
+}
+
+.modalMainTop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.modalMainMid {
+  width: 100%;
+}
+
+.modalMainBottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divMSMBottomer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  z-index: 2;
+}
+
+.cardthingGroupbtn {
+  transition: ease 0.4s;
+  flex-grow: 1;
+  background: unset;
+  border: unset;
+  outline: unset;
+  border-radius: 0;
+  padding: 10px 20px;
+  color: white;
+}
+
+.cardthingGroupbtn:hover, active, focus {
+  transition: ease 0.4s;
+  background: rgba(255,255,255,0.1);
+  border: unset;
+  outline: unset;
+  border-radius: 0;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+.cardthingGroupInput::-webkit-inner-spin-button, .cardthingGroupInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cardthingAlt {
+  background: rgba(255,255,255,0);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+  border: solid 1px rgba(255,255,255,0.1);
+}
+
+.divMainTopInnerPara {
+  text-align: center;
+  font-family: 'Alegreya';
+}
+
+.divMainTopInnerAudio {
+  width: 100%;
+}
+
+.divMSMWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  grid-gap: 50px;
+}
+
+.divMSMTopInfoInnerHeading {
+  line-height: 1.5;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.divMSMTopInfoInnerPara {
+  font-family: 'Alegreya';
+  margin: 0;
+}
+
+audio {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.divMSMBottomerInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background: rgba(51,51,51,0);
+  box-shadow: 0 0 12px 0 rgb(0,0,0,0.25);
+  border-radius: 12px;
+  border: solid 1px rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+}
+
+.divMSMBottomerInnerBtn {
+  transition: ease 0.4s;
+  font-family: 'Alegreya';
+  color: white;
+  background: rgba(255,255,255,0.1);
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: unset;
+  border: unset;
+  box-shadow: unset;
+  padding: 15px 25px;
+}
+
+.divMSMBottomerInnerBtn:hover, active, focus {
+  transition: ease 0.4s;
+  color: white;
+  background: rgba(255,255,255,0.1);
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: unset;
+  border: unset;
+  box-shadow: unset;
+  letter-spacing: 1.5px;
+}
+
+.modalMainTopBtn {
+  transition: ease 0.4s;
+  color: white;
+  border: unset;
+  outline: unset;
+  background: rgba(255,255,255,0.05);
+  padding: 10px 15px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalMainTopBtn:hover, focus, active {
+  transition: ease 0.4s;
+  color: white;
+  border: unset;
+  outline: unset;
+  background: rgba(255,255,255,0.1);
+}
+
+.modalMainMidPara {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.modalMainMidParaSpan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /*border-radius: 12px;*/
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  border-top: solid 1px rgba(255,255,255,0.1);
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+  font-weight: bold;
+  left: 1px;
+  font-size: 24px;
+}
+
+.shareontwitterbtn {
+  transition: ease 0.4s;
+  font-family: 'Alegreya';
+  color: white;
+  background: rgba(255,255,255,0.1);
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: unset;
+  border: unset;
+  box-shadow: unset;
+  padding: 10px 25px;
+}
+
+.shareontwitterbtn:hover, focus, active {
+  transition: ease 0.4s;
+  color: #232323;
+  background: rgb(84,214,242);
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: unset;
+  border: unset;
+  box-shadow: unset;
+  /*letter-spacing: 1.5px;*/
+  padding: 10px 35px;
+}
+
+.toggleMomDadyDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggleMomDadyDivLabel {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.toggleMomDadyDivLabel input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  z-index: 2;
+}
+
+.toggleMomDadyDivLabelSlider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(113,127,255,0.25);
+  transition: .4s;
+  border-radius: 34px;
+  z-index: 2;
+}
+
+.toggleMomDadyDivLabelSlider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+#toggleMomDadyDisplayText {
+  margin-left: 10px;
+}
+
+.toggleMomDadyDivPara {
+  margin: 0;
+  font-family: 'Alegreya';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0!important;
+}
+
+#toggleMomDadyDivLabelToggleSwitch:checked + .toggleMomDadyDivLabelSlider {
+  background-color: rgba(255,113,173,0.25);
+}
+
+#toggleMomDadyDivLabelToggleSwitch:checked + .toggleMomDadyDivLabelSlider:before {
+  transform: translateX(26px);
+}
+
