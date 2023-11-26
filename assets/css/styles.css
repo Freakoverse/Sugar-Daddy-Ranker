@@ -592,3 +592,73 @@ audio {
   margin: 0;
 }
 
+.divMSMTopRanks {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 25px;
+  border-radius: 10px;
+  background: #444444;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .divMSMTopRanks {
+    grid-template-columns: 1fr 1fr;
+    grid-column-end: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .divMSMTopRanks {
+    grid-template-columns: 1fr;
+  }
+}
+
+.divMSMTopRanksParaSpan {
+  padding: 10px 20px;
+  flex-grow: 1;
+  background: rgba(0,0,0,0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divMSMTopRanksPara {
+  margin: 0;
+  line-height: 1;
+  font-family: 'Alegreya';
+  display: grid;
+  grid-template-columns: 0.15fr 1.85fr;
+  grid-gap: 5px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 10px;
+}
+
+.divMSMTopRanksReveal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Alegreya';
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
