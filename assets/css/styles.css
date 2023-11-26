@@ -252,7 +252,7 @@
 }
 
 .modalMain {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
@@ -264,6 +264,7 @@
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(10px);
+  height: 100vh;
 }
 
 #rankModal {
