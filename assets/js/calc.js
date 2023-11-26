@@ -106,7 +106,7 @@ function shareOnTwitter() {
   const url = 'https://yourwebsite.com';
 
   // Get the current text to be included in the tweet
-  let tweetText = `My daddy's rank is ${rank}.%0A%0AIs your daddy better than mine?%0A${url}%0A%0A&hashtags=SugarDaddy,SugarDaddyRanker`;
+  let tweetText = `My sugar daddy's rank is ${rank}.%0A%0AIs your daddy better than mine?%0A${url}%0A%0A&hashtags=SugarDaddy,SugarDaddyRanker`;
 
   // Check the state of the toggle
   const toggleMomDadySwitch = document.getElementById('toggleMomDadyDivLabelToggleSwitch');
