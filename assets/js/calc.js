@@ -48,6 +48,7 @@ const toggleMomDadySwitch = document.getElementById('toggleMomDadyDivLabelToggle
 
   // Display the result in a modal
   document.getElementById('rankResult').innerText = rank;
+  document.body.style.overflow = 'hidden';  // Disable scrolling
   document.getElementById('rankModal').style.display = 'flex';
 
   // Set the rank for sharing on Twitter
@@ -56,6 +57,7 @@ const toggleMomDadySwitch = document.getElementById('toggleMomDadyDivLabelToggle
 
 function closeModal() {
   document.getElementById('rankModal').style.display = 'none';
+  document.body.style.overflow = 'auto';  // Enable scrolling
 }
 
 function incrementValue(button) {
