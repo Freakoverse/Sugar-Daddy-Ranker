@@ -103,7 +103,7 @@ function shareOnTwitter() {
   const rank = document.getElementById('twitterShareRank').innerText;
 
   // Your website URL (replace with your actual URL)
-  const url = 'https://yourwebsite.com';
+  const url = 'https://freakoverse.github.io/Sugar-Daddy-Ranker/';
 
   // Get the current text to be included in the tweet
   let tweetText = `My sugar daddy's rank is ${rank}.%0A%0AIs your daddy better than mine?%0A${url}%0A%0A&hashtags=SugarDaddy,SugarDaddyRanker`;
